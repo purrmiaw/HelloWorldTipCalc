@@ -136,8 +136,8 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
             _typeNameTable[0] = "HelloWorld.UI.Uwp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "MvvmCross.WindowsUWP.Views.MvxWindowsPage";
-            _typeNameTable[4] = "MvvmCross.WindowsUWP.Views.IMvxWindowsFrame";
+            _typeNameTable[3] = "MvvmCross.Uwp.Views.MvxWindowsPage";
+            _typeNameTable[4] = "MvvmCross.Uwp.Views.IMvxWindowsFrame";
             _typeNameTable[5] = "MvvmCross.Core.ViewModels.IMvxViewModel";
             _typeNameTable[6] = "HelloWorld.UI.Uwp.Views.HomeView";
 
@@ -145,8 +145,8 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
             _typeTable[0] = typeof(global::HelloWorld.UI.Uwp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::MvvmCross.WindowsUWP.Views.MvxWindowsPage);
-            _typeTable[4] = typeof(global::MvvmCross.WindowsUWP.Views.IMvxWindowsFrame);
+            _typeTable[3] = typeof(global::MvvmCross.Uwp.Views.MvxWindowsPage);
+            _typeTable[4] = typeof(global::MvvmCross.Uwp.Views.IMvxWindowsFrame);
             _typeTable[5] = typeof(global::MvvmCross.Core.ViewModels.IMvxViewModel);
             _typeTable[6] = typeof(global::HelloWorld.UI.Uwp.Views.HomeView);
         }
@@ -184,7 +184,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::HelloWorld.UI.Uwp.MainPage(); }
-        private object Activate_3_MvxWindowsPage() { return new global::MvvmCross.WindowsUWP.Views.MvxWindowsPage(); }
+        private object Activate_3_MvxWindowsPage() { return new global::MvvmCross.Uwp.Views.MvxWindowsPage(); }
         private object Activate_6_HomeView() { return new global::HelloWorld.UI.Uwp.Views.HomeView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -212,7 +212,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
                 xamlType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  MvvmCross.WindowsUWP.Views.MvxWindowsPage
+            case 3:   //  MvvmCross.Uwp.Views.MvxWindowsPage
                 userType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_MvxWindowsPage;
                 userType.AddMemberName("WrappedFrame");
@@ -220,7 +220,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  MvvmCross.WindowsUWP.Views.IMvxWindowsFrame
+            case 4:   //  MvvmCross.Uwp.Views.IMvxWindowsFrame
                 userType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
@@ -233,7 +233,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
                 break;
 
             case 6:   //  HelloWorld.UI.Uwp.Views.HomeView
-                userType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.WindowsUWP.Views.MvxWindowsPage"));
+                userType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage"));
                 userType.Activator = Activate_6_HomeView;
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -245,17 +245,17 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
 
         private object get_0_MvxWindowsPage_WrappedFrame(object instance)
         {
-            var that = (global::MvvmCross.WindowsUWP.Views.MvxWindowsPage)instance;
+            var that = (global::MvvmCross.Uwp.Views.MvxWindowsPage)instance;
             return that.WrappedFrame;
         }
         private object get_1_MvxWindowsPage_ViewModel(object instance)
         {
-            var that = (global::MvvmCross.WindowsUWP.Views.MvxWindowsPage)instance;
+            var that = (global::MvvmCross.Uwp.Views.MvxWindowsPage)instance;
             return that.ViewModel;
         }
         private void set_1_MvxWindowsPage_ViewModel(object instance, object Value)
         {
-            var that = (global::MvvmCross.WindowsUWP.Views.MvxWindowsPage)instance;
+            var that = (global::MvvmCross.Uwp.Views.MvxWindowsPage)instance;
             that.ViewModel = (global::MvvmCross.Core.ViewModels.IMvxViewModel)Value;
         }
 
@@ -266,14 +266,14 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "MvvmCross.WindowsUWP.Views.MvxWindowsPage.WrappedFrame":
-                userType = (global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MvvmCross.WindowsUWP.Views.MvxWindowsPage");
-                xamlMember = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlMember(this, "WrappedFrame", "MvvmCross.WindowsUWP.Views.IMvxWindowsFrame");
+            case "MvvmCross.Uwp.Views.MvxWindowsPage.WrappedFrame":
+                userType = (global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage");
+                xamlMember = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlMember(this, "WrappedFrame", "MvvmCross.Uwp.Views.IMvxWindowsFrame");
                 xamlMember.Getter = get_0_MvxWindowsPage_WrappedFrame;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "MvvmCross.WindowsUWP.Views.MvxWindowsPage.ViewModel":
-                userType = (global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MvvmCross.WindowsUWP.Views.MvxWindowsPage");
+            case "MvvmCross.Uwp.Views.MvxWindowsPage.ViewModel":
+                userType = (global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage");
                 xamlMember = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlMember(this, "ViewModel", "MvvmCross.Core.ViewModels.IMvxViewModel");
                 xamlMember.Getter = get_1_MvxWindowsPage_ViewModel;
                 xamlMember.Setter = set_1_MvxWindowsPage_ViewModel;

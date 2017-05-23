@@ -13,7 +13,6 @@ E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Binding.Droid.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Core.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Droid.dll
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Droid.Shared.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Localization.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Platform.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\MvvmCross.Platform.Droid.dll
@@ -37,4 +36,5 @@ E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\System.ObjectModel.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\System.Globalization.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Android\obj\Debug\android\assets\System.IO.dll

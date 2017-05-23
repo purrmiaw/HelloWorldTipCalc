@@ -13,7 +13,7 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="HelloWorld.UI.Uwp.MainPage" />
-    <RootType FullName="MvvmCross.WindowsUWP.Views.MvxWindowsPage">
+    <RootType FullName="MvvmCross.Uwp.Views.MvxWindowsPage">
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">

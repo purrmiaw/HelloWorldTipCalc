@@ -288,50 +288,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.native.System.IO.Compression/4.1.0": {
@@ -2454,50 +2456,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -4756,50 +4760,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -7098,50 +7104,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -9409,50 +9417,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -11757,50 +11767,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -14068,50 +14080,52 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MvvmCross/4.4.0": {
+      "MvvmCross/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Binding": "4.4.0",
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Binding": "[5.0.0]",
+          "MvvmCross.Core": "[5.0.0]"
         }
       },
-      "MvvmCross.Binding/4.4.0": {
+      "MvvmCross.Binding/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Core": "4.4.0"
+          "MvvmCross.Core": "[5.0.0]"
         },
         "compile": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Binding.dll": {},
-          "lib/win81/MvvmCross.Localization.dll": {}
+          "lib/uap10.0/MvvmCross.Binding.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Binding.dll": {},
+          "lib/uap10.0/MvvmCross.Localization.dll": {}
         }
       },
-      "MvvmCross.Core/4.4.0": {
+      "MvvmCross.Core/5.0.0": {
         "type": "package",
         "dependencies": {
-          "MvvmCross.Platform": "4.4.0"
+          "MvvmCross.Platform": "[5.0.0]"
         },
         "compile": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         },
         "runtime": {
-          "lib/uap/MvvmCross.Core.dll": {},
-          "lib/uap/MvvmCross.WindowsUWP.dll": {}
+          "lib/uap10.0/MvvmCross.Core.dll": {},
+          "lib/uap10.0/MvvmCross.Uwp.dll": {}
         }
       },
-      "MvvmCross.Platform/4.4.0": {
+      "MvvmCross.Platform/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         },
         "runtime": {
-          "lib/win81/MvvmCross.Platform.WindowsCommon.dll": {},
-          "lib/win81/MvvmCross.Platform.dll": {}
+          "lib/uap10.0/MvvmCross.Platform.Uwp.dll": {},
+          "lib/uap10.0/MvvmCross.Platform.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -16482,157 +16496,199 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "MvvmCross/4.4.0": {
-      "sha512": "BA/aQRUiZy7xmaGYCLOUJEpseYtF9Zv/Ck1kWKOQMtS/Xw1zj9M+vJOawWlk2xl7QBz9Xkya7dFJOs+RmiruVw==",
+    "MvvmCross/5.0.0": {
+      "sha512": "OXa7TjH4gY0t0+jGlxiYqN3A2pkTO0ajnfb3QPRIrbpS/UVSv1m4WxN7M7qluI/KslM0ZmwaEN35ZZnT7z8w2Q==",
       "type": "package",
-      "path": "mvvmcross/4.4.0",
+      "path": "mvvmcross/5.0.0",
       "files": [
-        "mvvmcross.4.4.0.nupkg.sha512",
+        "mvvmcross.5.0.0.nupkg.sha512",
         "mvvmcross.nuspec"
       ]
     },
-    "MvvmCross.Binding/4.4.0": {
-      "sha512": "1hT8Xe+whI2CgSYaV6+wZaOyQXc724ZNhRKF9SNjSzG4OpBEt/KoXRZVWpbqnVMO3Uz3sk2QbSNmJD/KPNixfg==",
+    "MvvmCross.Binding/5.0.0": {
+      "sha512": "4QMhigieKjhQZ0mt1iOr8Kmm5WR+eAIWJqLn75cGnWcSc/lTrlwbuAy9NUnV+h+cRQfDzzflNnMqLMxjmuNFcw==",
       "type": "package",
-      "path": "mvvmcross.binding/4.4.0",
+      "path": "mvvmcross.binding/5.0.0",
       "files": [
         "lib/MonoAndroid/MvvmCross.Binding.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Binding.Droid.pdb",
         "lib/MonoAndroid/MvvmCross.Binding.dll",
         "lib/MonoAndroid/MvvmCross.Binding.dll.mdb",
+        "lib/MonoAndroid/MvvmCross.Binding.pdb",
+        "lib/MonoAndroid/MvvmCross.Binding.pdb.srcsrv",
         "lib/MonoAndroid/MvvmCross.Localization.dll",
         "lib/MonoAndroid/MvvmCross.Localization.dll.mdb",
+        "lib/MonoAndroid/MvvmCross.Localization.pdb",
+        "lib/MonoAndroid/MvvmCross.Localization.pdb.srcsrv",
         "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.Mac.pdb",
         "lib/Xamarin.Mac20/MvvmCross.Binding.dll",
         "lib/Xamarin.Mac20/MvvmCross.Binding.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Binding.pdb.srcsrv",
         "lib/Xamarin.Mac20/MvvmCross.Localization.dll",
         "lib/Xamarin.Mac20/MvvmCross.Localization.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Localization.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Localization.pdb.srcsrv",
         "lib/Xamarin.iOS10/MvvmCross.Binding.dll",
         "lib/Xamarin.iOS10/MvvmCross.Binding.dll.mdb",
         "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll",
         "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll.mdb",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.iOS.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Binding.pdb.srcsrv",
         "lib/Xamarin.iOS10/MvvmCross.Localization.dll",
         "lib/Xamarin.iOS10/MvvmCross.Localization.dll.mdb",
+        "lib/Xamarin.iOS10/MvvmCross.Localization.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Localization.pdb.srcsrv",
         "lib/Xamarin.tvOS/MvvmCross.Binding.dll",
         "lib/Xamarin.tvOS/MvvmCross.Binding.dll.mdb",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.pdb.srcsrv",
         "lib/Xamarin.tvOS/MvvmCross.Binding.tvOS.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.tvOS.dll.mdb",
+        "lib/Xamarin.tvOS/MvvmCross.Binding.tvOS.pdb",
         "lib/Xamarin.tvOS/MvvmCross.Localization.dll",
         "lib/Xamarin.tvOS/MvvmCross.Localization.dll.mdb",
+        "lib/Xamarin.tvOS/MvvmCross.Localization.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Localization.pdb.srcsrv",
         "lib/dotnet/MvvmCross.Binding.dll",
         "lib/dotnet/MvvmCross.Binding.dll.mdb",
+        "lib/dotnet/MvvmCross.Binding.pdb",
+        "lib/dotnet/MvvmCross.Binding.pdb.srcsrv",
         "lib/dotnet/MvvmCross.Localization.dll",
         "lib/dotnet/MvvmCross.Localization.dll.mdb",
+        "lib/dotnet/MvvmCross.Localization.pdb",
+        "lib/dotnet/MvvmCross.Localization.pdb.srcsrv",
+        "lib/net45/MvvmCross.Binding.Wpf.dll",
+        "lib/net45/MvvmCross.Binding.Wpf.pdb",
+        "lib/net45/MvvmCross.Binding.Wpf.pdb.srcsrv",
         "lib/net45/MvvmCross.Binding.dll",
         "lib/net45/MvvmCross.Binding.dll.mdb",
+        "lib/net45/MvvmCross.Binding.pdb",
+        "lib/net45/MvvmCross.Binding.pdb.srcsrv",
         "lib/net45/MvvmCross.Localization.dll",
         "lib/net45/MvvmCross.Localization.dll.mdb",
-        "lib/netcore45/MvvmCross.Binding.dll",
-        "lib/netcore45/MvvmCross.Binding.dll.mdb",
-        "lib/netcore45/MvvmCross.Localization.dll",
-        "lib/netcore45/MvvmCross.Localization.dll.mdb",
+        "lib/net45/MvvmCross.Localization.pdb",
+        "lib/net45/MvvmCross.Localization.pdb.srcsrv",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.dll.mdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Binding.pdb.srcsrv",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.dll.mdb",
-        "lib/portable-win81+wpa81/MvvmCross.Binding.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Binding.dll.mdb",
-        "lib/portable-win81+wpa81/MvvmCross.Localization.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Localization.dll.mdb",
-        "lib/win81/MvvmCross.Binding.dll",
-        "lib/win81/MvvmCross.Binding.dll.mdb",
-        "lib/win81/MvvmCross.Localization.dll",
-        "lib/win81/MvvmCross.Localization.dll.mdb",
-        "lib/wpa81/MvvmCross.Binding.dll",
-        "lib/wpa81/MvvmCross.Binding.dll.mdb",
-        "lib/wpa81/MvvmCross.Localization.dll",
-        "lib/wpa81/MvvmCross.Localization.dll.mdb",
-        "mvvmcross.binding.4.4.0.nupkg.sha512",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Localization.pdb.srcsrv",
+        "lib/uap10.0/MvvmCross.Binding.Uwp.dll",
+        "lib/uap10.0/MvvmCross.Binding.Uwp.pdb",
+        "lib/uap10.0/MvvmCross.Binding.Uwp.pri",
+        "lib/uap10.0/MvvmCross.Binding.dll",
+        "lib/uap10.0/MvvmCross.Binding.dll.mdb",
+        "lib/uap10.0/MvvmCross.Binding.pdb",
+        "lib/uap10.0/MvvmCross.Binding.pdb.srcsrv",
+        "lib/uap10.0/MvvmCross.Localization.dll",
+        "lib/uap10.0/MvvmCross.Localization.dll.mdb",
+        "lib/uap10.0/MvvmCross.Localization.pdb",
+        "lib/uap10.0/MvvmCross.Localization.pdb.srcsrv",
+        "mvvmcross.binding.5.0.0.nupkg.sha512",
         "mvvmcross.binding.nuspec"
       ]
     },
-    "MvvmCross.Core/4.4.0": {
-      "sha512": "oPRhsHkKdqrY9BYn8k6Uyayip7/zIWKMeDM9sG6bDo8BefCeKkHlXQEPLjirTWIQMluHFzUZHhVAB3CEmwJM9A==",
+    "MvvmCross.Core/5.0.0": {
+      "sha512": "QqdXRHWozUyHYfheHCxwGi5qDcFOCr4+VUiyhvvwXlpwkFj5J2776sKOuBtK9PnNn0WbviKvu3io/KgryblWSA==",
       "type": "package",
-      "path": "mvvmcross.core/4.4.0",
+      "path": "mvvmcross.core/5.0.0",
       "files": [
         "lib/MonoAndroid/MvvmCross.Core.dll",
-        "lib/MonoAndroid/MvvmCross.Droid.Shared.dll",
+        "lib/MonoAndroid/MvvmCross.Core.pdb",
         "lib/MonoAndroid/MvvmCross.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Droid.pdb",
         "lib/Xamarin.Mac20/MvvmCross.Core.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Core.pdb",
         "lib/Xamarin.Mac20/MvvmCross.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Mac.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Mac.pdb",
         "lib/Xamarin.iOS10/MvvmCross.Core.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Core.pdb",
         "lib/Xamarin.iOS10/MvvmCross.iOS.dll",
-        "lib/Xamarin.iOS10/MvvmCross.iOS.dll.mdb",
+        "lib/Xamarin.iOS10/MvvmCross.iOS.pdb",
         "lib/Xamarin.tvOS/MvvmCross.Core.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Core.pdb",
         "lib/Xamarin.tvOS/MvvmCross.tvOS.dll",
+        "lib/Xamarin.tvOS/MvvmCross.tvOS.dll.mdb",
+        "lib/Xamarin.tvOS/MvvmCross.tvOS.pdb",
         "lib/dotnet/MvvmCross.Core.dll",
+        "lib/dotnet/MvvmCross.Core.pdb",
         "lib/net45/MvvmCross.Core.dll",
+        "lib/net45/MvvmCross.Core.pdb",
         "lib/net45/MvvmCross.Wpf.dll",
-        "lib/netcore45/MvvmCross.Core.dll",
-        "lib/netcore45/MvvmCross.WindowsStore.dll",
-        "lib/netcore45/MvvmCross.WindowsStore.pri",
+        "lib/net45/MvvmCross.Wpf.pdb",
+        "lib/net45/MvvmCross.Wpf.pdb.srcsrv",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Core.dll",
-        "lib/portable-win81+wpa81/MvvmCross.WindowsCommon.dll",
-        "lib/portable-win81+wpa81/MvvmCross.WindowsCommon.pri",
-        "lib/uap/MvvmCross.Core.dll",
-        "lib/uap/MvvmCross.WindowsUWP.dll",
-        "lib/uap/MvvmCross.WindowsUWP.pri",
-        "lib/uap/MvvmCross.WindowsUWP/Properties/MvvmCross.WindowsUWP.rd.xml",
-        "lib/win81/MvvmCross.Core.dll",
-        "lib/win81/MvvmCross.WindowsCommon.dll",
-        "lib/win81/MvvmCross.WindowsCommon.pri",
-        "lib/wpa81/MvvmCross.Core.dll",
-        "lib/wpa81/MvvmCross.WindowsCommon.dll",
-        "lib/wpa81/MvvmCross.WindowsCommon.pri",
-        "mvvmcross.core.4.4.0.nupkg.sha512",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Core.pdb",
+        "lib/uap10.0/MvvmCross.Core.dll",
+        "lib/uap10.0/MvvmCross.Core.pdb",
+        "lib/uap10.0/MvvmCross.Uwp.dll",
+        "lib/uap10.0/MvvmCross.Uwp.pdb",
+        "lib/uap10.0/MvvmCross.Uwp.pri",
+        "lib/uap10.0/MvvmCross.Uwp/Properties/MvvmCross.Uwp.rd.xml",
+        "mvvmcross.core.5.0.0.nupkg.sha512",
         "mvvmcross.core.nuspec"
       ]
     },
-    "MvvmCross.Platform/4.4.0": {
-      "sha512": "6H9qA5Vx9MzKZ9dVv3gw9QEJmN2pXmlwpTcwRouCGTJ0RdKkDZ5AKka3MboXgxn/P+j2S+PfQ4RjkmJnXCyOZA==",
+    "MvvmCross.Platform/5.0.0": {
+      "sha512": "rZGDX9yRa4ZvpcitIOxGOEXZwSnSy3bLmQ/filFnhbVj7D/S4kOf72omOCP4xgXUnBM2g+bqp9ZpzYUmih8pZQ==",
       "type": "package",
-      "path": "mvvmcross.platform/4.4.0",
+      "path": "mvvmcross.platform/5.0.0",
       "files": [
         "lib/MonoAndroid/MvvmCross.Platform.Droid.dll",
+        "lib/MonoAndroid/MvvmCross.Platform.Droid.pdb",
         "lib/MonoAndroid/MvvmCross.Platform.dll",
         "lib/MonoAndroid/MvvmCross.Platform.dll.mdb",
+        "lib/MonoAndroid/MvvmCross.Platform.pdb",
+        "lib/MonoAndroid/MvvmCross.Platform.pdb.srcsrv",
         "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.dll",
-        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.Mac.pdb",
         "lib/Xamarin.Mac20/MvvmCross.Platform.dll",
         "lib/Xamarin.Mac20/MvvmCross.Platform.dll.mdb",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Platform.pdb.srcsrv",
         "lib/Xamarin.iOS10/MvvmCross.Platform.dll",
         "lib/Xamarin.iOS10/MvvmCross.Platform.dll.mdb",
         "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll",
         "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll.mdb",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Platform.pdb.srcsrv",
         "lib/Xamarin.tvOS/MvvmCross.Platform.dll",
         "lib/Xamarin.tvOS/MvvmCross.Platform.dll.mdb",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.pdb",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.pdb.srcsrv",
         "lib/Xamarin.tvOS/MvvmCross.Platform.tvOS.dll",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.tvOS.dll.mdb",
+        "lib/Xamarin.tvOS/MvvmCross.Platform.tvOS.pdb",
         "lib/dotnet/MvvmCross.Platform.dll",
         "lib/dotnet/MvvmCross.Platform.dll.mdb",
+        "lib/dotnet/MvvmCross.Platform.pdb",
+        "lib/dotnet/MvvmCross.Platform.pdb.srcsrv",
         "lib/net45/MvvmCross.Platform.Wpf.dll",
+        "lib/net45/MvvmCross.Platform.Wpf.pdb",
+        "lib/net45/MvvmCross.Platform.Wpf.pdb.srcsrv",
         "lib/net45/MvvmCross.Platform.dll",
         "lib/net45/MvvmCross.Platform.dll.mdb",
-        "lib/netcore45/MvvmCross.Platform.WindowsStore.dll",
-        "lib/netcore45/MvvmCross.Platform.WindowsStore.pri",
-        "lib/netcore45/MvvmCross.Platform.dll",
-        "lib/netcore45/MvvmCross.Platform.dll.mdb",
+        "lib/net45/MvvmCross.Platform.pdb",
+        "lib/net45/MvvmCross.Platform.pdb.srcsrv",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll",
         "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll.mdb",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.WindowsCommon.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.WindowsCommon.pri",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.dll",
-        "lib/portable-win81+wpa81/MvvmCross.Platform.dll.mdb",
-        "lib/win81/MvvmCross.Platform.WindowsCommon.dll",
-        "lib/win81/MvvmCross.Platform.WindowsCommon.pri",
-        "lib/win81/MvvmCross.Platform.dll",
-        "lib/win81/MvvmCross.Platform.dll.mdb",
-        "lib/wpa81/MvvmCross.Platform.WindowsCommon.dll",
-        "lib/wpa81/MvvmCross.Platform.WindowsCommon.pri",
-        "lib/wpa81/MvvmCross.Platform.dll",
-        "lib/wpa81/MvvmCross.Platform.dll.mdb",
-        "mvvmcross.platform.4.4.0.nupkg.sha512",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.pdb.srcsrv",
+        "lib/uap10.0/MvvmCross.Platform.Uwp.dll",
+        "lib/uap10.0/MvvmCross.Platform.Uwp.pdb",
+        "lib/uap10.0/MvvmCross.Platform.Uwp.pri",
+        "lib/uap10.0/MvvmCross.Platform.dll",
+        "lib/uap10.0/MvvmCross.Platform.dll.mdb",
+        "lib/uap10.0/MvvmCross.Platform.pdb",
+        "lib/uap10.0/MvvmCross.Platform.pdb.srcsrv",
+        "mvvmcross.platform.5.0.0.nupkg.sha512",
         "mvvmcross.platform.nuspec"
       ]
     },
@@ -22510,7 +22566,7 @@
     "UAP,Version=v10.0.10586": [
       "HelloWorld.Core >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.3",
-      "mvvmcross >= 4.4.0"
+      "mvvmcross >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -22544,7 +22600,7 @@
       },
       "mvvmcross": {
         "target": "Package",
-        "version": "4.4.0"
+        "version": "5.0.0"
       }
     },
     "frameworks": {
@@ -22556,7 +22612,7 @@
           },
           "mvvmcross": {
             "target": "Package",
-            "version": "4.4.0"
+            "version": "5.0.0"
           }
         }
       }

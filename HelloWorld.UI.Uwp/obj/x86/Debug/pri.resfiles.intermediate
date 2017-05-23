@@ -1,2 +1,3 @@
-C:\Users\purr\.nuget\packages\MvvmCross.Core\4.4.0\lib\uap\MvvmCross.WindowsUWP.pri
-C:\Users\purr\.nuget\packages\MvvmCross.Platform\4.4.0\lib\win81\MvvmCross.Platform.WindowsCommon.pri
+C:\Users\purr\.nuget\packages\MvvmCross.Binding\5.0.0\lib\uap10.0\MvvmCross.Binding.Uwp.pri
+C:\Users\purr\.nuget\packages\MvvmCross.Core\5.0.0\lib\uap10.0\MvvmCross.Uwp.pri
+C:\Users\purr\.nuget\packages\MvvmCross.Platform\5.0.0\lib\uap10.0\MvvmCross.Platform.Uwp.pri

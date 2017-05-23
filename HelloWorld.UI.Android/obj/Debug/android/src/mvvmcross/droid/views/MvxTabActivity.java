@@ -12,8 +12,10 @@ public abstract class MvxTabActivity
 		__md_methods = 
 			"n_setContentView:(I)V:GetSetContentView_IHandler\n" +
 			"n_attachBaseContext:(Landroid/content/Context;)V:GetAttachBaseContext_Landroid_content_Context_Handler\n" +
+			"n_onAttachedToWindow:()V:GetOnAttachedToWindowHandler\n" +
+			"n_onDetachedFromWindow:()V:GetOnDetachedFromWindowHandler\n" +
 			"";
-		mono.android.Runtime.register ("MvvmCross.Droid.Views.MvxTabActivity, MvvmCross.Droid, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null", MvxTabActivity.class, __md_methods);
+		mono.android.Runtime.register ("MvvmCross.Droid.Views.MvxTabActivity, MvvmCross.Droid, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null", MvxTabActivity.class, __md_methods);
 	}
 
 
@@ -21,7 +23,7 @@ public abstract class MvxTabActivity
 	{
 		super ();
 		if (getClass () == MvxTabActivity.class)
-			mono.android.TypeManager.Activate ("MvvmCross.Droid.Views.MvxTabActivity, MvvmCross.Droid, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("MvvmCross.Droid.Views.MvxTabActivity, MvvmCross.Droid, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 
@@ -39,6 +41,22 @@ public abstract class MvxTabActivity
 	}
 
 	private native void n_attachBaseContext (android.content.Context p0);
+
+
+	public void onAttachedToWindow ()
+	{
+		n_onAttachedToWindow ();
+	}
+
+	private native void n_onAttachedToWindow ();
+
+
+	public void onDetachedFromWindow ()
+	{
+		n_onDetachedFromWindow ();
+	}
+
+	private native void n_onDetachedFromWindow ();
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

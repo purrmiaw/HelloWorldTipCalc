@@ -4,10 +4,9 @@ E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\MvvmCross.Platform.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.dll
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.pdb
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.dll.mdb
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\HelloWorld.Core.dll.mdb
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.dll.mdb
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\HelloWorld.Core.dll.mdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\MvvmCross.Core.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\MvvmCross.Platform.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.csprojResolveAssemblyReference.cache
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\HelloWorld.Core.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\obj\Debug\HelloWorld.Core.dll.mdb

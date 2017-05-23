@@ -12,7 +12,6 @@ E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPho
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\HelloWorld.Core.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Binding.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Binding.iOS.dll.mdb
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.iOS.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Localization.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Platform.dll.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Platform.iOS.dll.mdb
@@ -24,5 +23,12 @@ E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\obj\iPho
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\obj\iPhone\Debug\HelloWorld.UI.Ios.csprojResolveAssemblyReference.cache
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\obj\iPhone\Debug\HelloWorld.UI.Ios.exe
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\obj\iPhone\Debug\HelloWorld.UI.Ios.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Binding.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Binding.iOS.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Core.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.iOS.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Localization.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Platform.pdb
+E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\MvvmCross.Platform.iOS.pdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\obj\iPhone\Debug\HelloWorld.UI.Ios.exe.mdb
 E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Ios\bin\iPhone\Debug\HelloWorld.UI.Ios.exe.mdb

@@ -9,12 +9,12 @@
       <LogicalName>HomeView.storyboardc/5-view-6.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\HomeView.storyboardc\Info.plist">
-      <LogicalName>HomeView.storyboardc/Info.plist</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\HomeView.storyboardc\HomeView.nib">
+      <LogicalName>HomeView.storyboardc/HomeView.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\HomeView.storyboardc\UIViewController-5.nib">
-      <LogicalName>HomeView.storyboardc/UIViewController-5.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\HomeView.storyboardc\Info.plist">
+      <LogicalName>HomeView.storyboardc/Info.plist</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool-link\Main.storyboardc\BYZ-38-t0r-view-8bC-Xf-vdC.nib">

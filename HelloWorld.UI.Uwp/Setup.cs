@@ -1,5 +1,5 @@
 ﻿using MvvmCross.Core.ViewModels;
-using MvvmCross.WindowsUWP.Platform;
+using MvvmCross.Uwp.Platform;
 using Windows.UI.Xaml.Controls;
 
 namespace HelloWorld.UI.Uwp
