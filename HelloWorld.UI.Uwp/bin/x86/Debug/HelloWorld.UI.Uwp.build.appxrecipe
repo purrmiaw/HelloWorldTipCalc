@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>cb151d30-1b3c-40dc-b9e9-e1750a0a9234</PackageIdentityName>
     <PackageIdentityPublisher>CN=purr</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\bin\x86\Debug\HelloWorld.UI.Uwp.exe">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\bin\x86\Debug\HelloWorld.UI.Uwp.exe">
       <PackagePath>entrypoint\HelloWorld.UI.Uwp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\purr\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -391,40 +391,40 @@
     <AppxPackagedFile Include="C:\Users\purr\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\bin\Debug\HelloWorld.Core.dll">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.Core\bin\Debug\HelloWorld.Core.dll">
       <PackagePath>HelloWorld.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\bin\x86\Debug\HelloWorld.UI.Uwp.xr.xml">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\bin\x86\Debug\HelloWorld.UI.Uwp.xr.xml">
       <PackagePath>HelloWorld.UI.Uwp.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
@@ -433,11 +433,11 @@
     <AppxPackagedFile Include="C:\Users\purr\.nuget\packages\MvvmCross.Core\5.0.0\lib\uap10.0\MvvmCross.Uwp\Properties\MvvmCross.Uwp.rd.xml">
       <PackagePath>MvvmCross.Uwp\Properties\MvvmCross.Uwp.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\bin\x86\Debug\Core\HelloWorld.UI.Uwp.exe">
+    <AppxPackagedFile Include="E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\bin\x86\Debug\Core\HelloWorld.UI.Uwp.exe">
       <PackagePath>HelloWorld.UI.Uwp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -132,7 +132,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "HelloWorld.UI.Uwp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -140,8 +140,9 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
             _typeNameTable[4] = "MvvmCross.Uwp.Views.IMvxWindowsFrame";
             _typeNameTable[5] = "MvvmCross.Core.ViewModels.IMvxViewModel";
             _typeNameTable[6] = "HelloWorld.UI.Uwp.Views.HomeView";
+            _typeNameTable[7] = "HelloWorld.UI.Uwp.Views.TipCalcView";
 
-            _typeTable = new global::System.Type[7];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::HelloWorld.UI.Uwp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -149,6 +150,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
             _typeTable[4] = typeof(global::MvvmCross.Uwp.Views.IMvxWindowsFrame);
             _typeTable[5] = typeof(global::MvvmCross.Core.ViewModels.IMvxViewModel);
             _typeTable[6] = typeof(global::HelloWorld.UI.Uwp.Views.HomeView);
+            _typeTable[7] = typeof(global::HelloWorld.UI.Uwp.Views.TipCalcView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -186,6 +188,7 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
         private object Activate_0_MainPage() { return new global::HelloWorld.UI.Uwp.MainPage(); }
         private object Activate_3_MvxWindowsPage() { return new global::MvvmCross.Uwp.Views.MvxWindowsPage(); }
         private object Activate_6_HomeView() { return new global::HelloWorld.UI.Uwp.Views.HomeView(); }
+        private object Activate_7_TipCalcView() { return new global::HelloWorld.UI.Uwp.Views.TipCalcView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -235,6 +238,13 @@ namespace HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo
             case 6:   //  HelloWorld.UI.Uwp.Views.HomeView
                 userType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage"));
                 userType.Activator = Activate_6_HomeView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  HelloWorld.UI.Uwp.Views.TipCalcView
+                userType = new global::HelloWorld.UI.Uwp.HelloWorld_UI_Uwp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("MvvmCross.Uwp.Views.MvxWindowsPage"));
+                userType.Activator = Activate_7_TipCalcView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

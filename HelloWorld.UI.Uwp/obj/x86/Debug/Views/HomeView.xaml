@@ -10,6 +10,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock HorizontalAlignment="Left" Margin="107,190,0,0" TextWrapping="Wrap" Text="Hello World" VerticalAlignment="Top"/>
+        <Button Content="Click Here" HorizontalAlignment="Left" Margin="186,295,0,0" VerticalAlignment="Top"
+                Command="{Binding ClickHereButton_Click, Mode=TwoWay}"
+                />
 
     </Grid>
 </views:MvxWindowsPage>

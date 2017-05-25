@@ -75,6 +75,8 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int home_view=0x7f030000;
+        public static final int splashscreen_view=0x7f030001;
+        public static final int tipcalc_view=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f050001;

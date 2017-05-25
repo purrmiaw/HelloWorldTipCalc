@@ -22575,10 +22575,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_programming\\_t\\vsdefault\\projects\\HelloWorld.Core\\HelloWorld.UI.Uwp\\HelloWorld.UI.Uwp.csproj",
+      "projectUniqueName": "E:\\dev\\helloworldtipcalc\\HelloWorldTipCalc\\HelloWorld.UI.Uwp\\HelloWorld.UI.Uwp.csproj",
       "projectName": "HelloWorld.UI.Uwp",
-      "projectPath": "E:\\_programming\\_t\\vsdefault\\projects\\HelloWorld.Core\\HelloWorld.UI.Uwp\\HelloWorld.UI.Uwp.csproj",
-      "outputPath": "E:\\_programming\\_t\\vsdefault\\projects\\HelloWorld.Core\\HelloWorld.UI.Uwp\\obj\\",
+      "projectPath": "E:\\dev\\helloworldtipcalc\\HelloWorldTipCalc\\HelloWorld.UI.Uwp\\HelloWorld.UI.Uwp.csproj",
+      "outputPath": "E:\\dev\\helloworldtipcalc\\HelloWorldTipCalc\\HelloWorld.UI.Uwp\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "uap10.0.10586"
@@ -22586,8 +22586,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "E:\\_programming\\_t\\vsdefault\\projects\\HelloWorld.Core\\HelloWorld.Core\\HelloWorld.Core.csproj": {
-              "projectPath": "E:\\_programming\\_t\\vsdefault\\projects\\HelloWorld.Core\\HelloWorld.Core\\HelloWorld.Core.csproj"
+            "E:\\dev\\helloworldtipcalc\\HelloWorldTipCalc\\HelloWorld.Core\\HelloWorld.Core.csproj": {
+              "projectPath": "E:\\dev\\helloworldtipcalc\\HelloWorldTipCalc\\HelloWorld.Core\\HelloWorld.Core.csproj"
             }
           }
         }

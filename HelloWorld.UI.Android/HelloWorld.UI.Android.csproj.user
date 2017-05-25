@@ -3,5 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>LGE Nexus 5</SelectedDevice>
     <DefaultDevice>VisualStudio_android-23_arm_phone</DefaultDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>

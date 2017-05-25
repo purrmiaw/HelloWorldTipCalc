@@ -1,2 +1,2 @@
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.Core\HelloWorld.Core.csproj;neutral
-E:\_programming\_t\vsdefault\projects\HelloWorld.Core\HelloWorld.UI.Uwp\HelloWorld.UI.Uwp.csproj;x86
+E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.Core\HelloWorld.Core.csproj;neutral
+E:\dev\helloworldtipcalc\HelloWorldTipCalc\HelloWorld.UI.Uwp\HelloWorld.UI.Uwp.csproj;x86

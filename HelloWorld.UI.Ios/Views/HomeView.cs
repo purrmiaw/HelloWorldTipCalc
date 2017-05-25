@@ -6,6 +6,9 @@ using Foundation;
 using UIKit;
 using MvvmCross.iOS.Views;
 using HelloWorld.Core.ViewModels;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Binding.iOS.Views;
+using MvvmCross.Binding.iOS;
 
 namespace HelloWorld.UI.Ios.Views
 {
@@ -31,6 +34,11 @@ namespace HelloWorld.UI.Ios.Views
             base.ViewDidLoad();
 
             // Perform any additional setup after loading the view, typically from a nib.
+            var set = this.CreateBindingSet<HomeView, HomeViewModel>();
+            //set.Bind(ClickHereButton).To(vm => vm.ClickHereButton_Click);
+            set.Bind(ClickHereButton).For(x => x.BindTouchUpInside()).To(vm => vm.ClickHereButton_Click);
+            set.Apply();
+
         }
 
         public override void ViewWillAppear(bool animated)

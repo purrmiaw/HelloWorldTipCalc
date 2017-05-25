@@ -29,5 +29,17 @@
       <LogicalName>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\TipCalcView.storyboardc\5-view-6.nib">
+      <LogicalName>TipCalcView.storyboardc/5-view-6.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\TipCalcView.storyboardc\Info.plist">
+      <LogicalName>TipCalcView.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhoneSimulator\Debug\ibtool-link\TipCalcView.storyboardc\UIViewController-5.nib">
+      <LogicalName>TipCalcView.storyboardc/UIViewController-5.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

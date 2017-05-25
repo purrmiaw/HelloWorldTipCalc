@@ -13,8 +13,16 @@ namespace HelloWorld.UI.Ios.Views
     [Register ("HomeView")]
     partial class HomeView
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton ClickHereButton { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
+            if (ClickHereButton != null) {
+                ClickHereButton.Dispose ();
+                ClickHereButton = null;
+            }
         }
     }
 }

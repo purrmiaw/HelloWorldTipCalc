@@ -124,6 +124,12 @@ namespace HelloWorld.UI.Android
 			// aapt resource value: 0x7f030000
 			public const int home_view = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int splashscreen_view = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int tipcalc_view = 2130903042;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
